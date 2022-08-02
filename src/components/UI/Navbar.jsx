@@ -1,7 +1,6 @@
 import React, {useContext} from 'react';
 import logo2 from "./logo2.svg"
 import Group from "./Group.svg"
-import mobLogo from "./mobLogo.svg"
 import {AuthContext} from "../../context";
 const Navbar = () => {
     const {isAuth, setIsAuth} = useContext(AuthContext);
@@ -14,7 +13,6 @@ const Navbar = () => {
     return (
         isAuth
         ?<div className="navbar">
-            <img className="mob_logo"  src={mobLogo} alt="mobile-logo"/>
                 <img className="logo_two"  src={logo2} alt="logo2"/>
                 <div className="group">
                     <strong>{userName}</strong>

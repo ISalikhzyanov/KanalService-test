@@ -1,5 +1,4 @@
 import React, {useContext} from 'react';
-import logo2 from "./logo2.svg"
 import Group from "./Group.svg"
 import mobLogo from "./mobLogo.svg"
 import {AuthContext} from "../../context";
